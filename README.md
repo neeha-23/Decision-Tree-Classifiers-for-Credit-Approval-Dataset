@@ -15,8 +15,8 @@ This project implements C4.5 and CART decision tree algorithms from scratch to c
 5. Code Structure
 
 6. Output
-
-7. Troubleshooting
+   
+8. Troubleshooting
 
 **1. Project Overview**
 The goal of this project is to implement and compare two decision tree algorithms:
@@ -137,7 +137,7 @@ Print the following metrics for both models:
 
 6. Print the structure of the decision trees.
 
-   **7. Troubleshooting**
+**7. Troubleshooting**
    
 1. File Not Found Error:
 
