@@ -84,4 +84,36 @@ Click the Run button (or press Shift + Enter) to execute the code cell.
 
 The code will load the dataset, preprocess it, train the models, and evaluate them on the test set.
 
+**5. Code Structure**
+
+The project consists of the following functions:
+
+load_data(file_path): Loads the dataset from a CSV file.
+
+split_features_labels(data): Splits the dataset into features (X) and labels (y).
+
+handle_missing_values(X, X_train): Handles missing values in the dataset.
+
+entropy(y): Calculates the entropy of a target variable.
+
+information_gain(X, y, feature): Calculates the information gain for a feature.
+
+information_gain_ratio(X, y, feature): Calculates the information gain ratio for a feature.
+
+gini_index(y): Calculates the Gini index for a target variable.
+
+build_c45_tree(X, y): Builds a C4.5 decision tree.
+
+build_cart_tree(X, y): Builds a CART decision tree.
+
+cross_validate(X, y, build_tree_func): Performs 10-fold cross-validation.
+
+predict(tree, row): Predicts the label for a single row using the decision tree.
+
+compute_metrics(y_true, y_pred): Computes accuracy, precision, recall, and F1 score.
+
+print_tree(tree, depth=0): Prints the structure of the decision tree.
+
+
+
 
