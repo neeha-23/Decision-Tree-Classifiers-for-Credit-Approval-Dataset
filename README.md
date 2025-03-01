@@ -114,6 +114,49 @@ compute_metrics(y_true, y_pred): Computes accuracy, precision, recall, and F1 sc
 
 print_tree(tree, depth=0): Prints the structure of the decision tree.
 
+**6. Output**
+When you run the code in Google Colab, it will:
+
+Load and preprocess the dataset.
+
+Train C4.5 and CART models using 10-fold cross-validation.
+
+Evaluate the models on the test set.
+
+Print the following metrics for both models:
+
+1. Accuracy
+
+2. Precision
+
+3. Recall
+
+4. F1 Score
+
+5. Compare the performance of the two models.
+
+6. Print the structure of the decision trees.
+
+   **7. Troubleshooting**
+   
+1. File Not Found Error:
+
+Ensure that training.data and test.data are uploaded to Google Colab.
+
+Check the file paths in the load_data function.
+
+2. Unexpected Output:
+
+Verify that the dataset is correctly formatted and contains no unexpected values.
+
+Check the logic for handling missing values and splitting the dataset.
+
+3. Google Colab Issues:
+
+If Google Colab is slow or unresponsive, try restarting the runtime:
+
+Click Runtime > Restart runtime.
+
 
 
 
