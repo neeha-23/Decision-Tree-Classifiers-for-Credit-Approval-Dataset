@@ -4,21 +4,21 @@ This project implements C4.5 and CART decision tree algorithms from scratch to c
 
 **Table of Contents**
 
-Project Overview
+1. Project Overview
 
-Requirements
+2. Requirements
 
-Dataset
+3. Dataset
 
-How to Run the Code in Google Colab
+4. How to Run the Code in Google Colab
 
-Code Structure
+5. Code Structure
 
-Output
+6. Output
 
-Troubleshooting
+7. Troubleshooting
 
-**Project Overview**
+**1. Project Overview**
 The goal of this project is to implement and compare two decision tree algorithms:
 
 **1. C4.5:** Uses information gain ratio for splitting.
@@ -39,7 +39,7 @@ Handling missing values using the median for numerical attributes and the sorted
 
 Evaluation of the models on the test set using accuracy, precision, recall, and F1 score.
 
-Requirements
+**2. Requirements**
 To run this project in Google Colab, you need:
 
 A Google account to access Google Colab.
@@ -48,7 +48,7 @@ The dataset files (training.data and test.data) uploaded to Google Colab.
 
 No additional libraries need to be installed, as Google Colab comes pre-installed with numpy, pandas, and matplotlib.
 
-Dataset
+**3. Dataset**
 The dataset used in this project is the UCI Credit Approval Dataset. It contains 690 examples with 15 attributes (9 categorical, 6 continuous) and missing values. The dataset is split into:
 
 Training set: training.data (550 examples)
@@ -57,7 +57,7 @@ Test set: test.data (140 examples)
 
 The dataset files (training.data and test.data) should be uploaded to Google Colab.
 
-How to Run the Code in Google Colab
+**4. How to Run the Code in Google Colab**
 Open Google Colab:
 
 Go to Google Colab.
