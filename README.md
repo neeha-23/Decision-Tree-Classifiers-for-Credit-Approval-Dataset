@@ -3,6 +3,7 @@
 This project implements C4.5 and CART decision tree algorithms from scratch to classify credit card applications using the UCI Credit Approval dataset. The project is implemented in Google Colab and includes handling missing values, 10-fold cross-validation, and evaluation of the models on a test set.
 
 **Table of Contents**
+
 Project Overview
 
 Requirements
@@ -17,12 +18,12 @@ Output
 
 Troubleshooting
 
-Project Overview
+**Project Overview**
 The goal of this project is to implement and compare two decision tree algorithms:
 
-C4.5: Uses information gain ratio for splitting.
+**1. C4.5:** Uses information gain ratio for splitting.
 
-CART: Uses the Gini index for splitting.
+**2. CART:** Uses the Gini index for splitting.
 
 The dataset contains 690 examples with 15 attributes (9 categorical, 6 continuous) and missing values. The dataset is split into:
 
